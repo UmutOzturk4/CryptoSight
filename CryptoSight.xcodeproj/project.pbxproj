@@ -13,6 +13,11 @@
 		AAEC85702CAFF4C1000D3DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC856E2CAFF4C1000D3DCA /* Main.storyboard */; };
 		AAEC85722CAFF4C5000D3DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC85712CAFF4C5000D3DCA /* Assets.xcassets */; };
 		AAEC85752CAFF4C5000D3DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC85732CAFF4C5000D3DCA /* LaunchScreen.storyboard */; };
+		AAEC85812CAFFD97000D3DCA /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC85802CAFFD97000D3DCA /* Crypto.swift */; };
+		AAEC85832CAFFE28000D3DCA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC85822CAFFE28000D3DCA /* WebService.swift */; };
+		AAEC85852CBD355A000D3DCA /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC85842CBD355A000D3DCA /* CryptoViewModel.swift */; };
+		AAEC858C2CBD363E000D3DCA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = AAEC858B2CBD363E000D3DCA /* RxCocoa */; };
+		AAEC85942CBD363E000D3DCA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AAEC85932CBD363E000D3DCA /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,9 @@
 		AAEC85712CAFF4C5000D3DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEC85742CAFF4C5000D3DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAEC85762CAFF4C5000D3DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEC85802CAFFD97000D3DCA /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		AAEC85822CAFFE28000D3DCA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		AAEC85842CBD355A000D3DCA /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEC858C2CBD363E000D3DCA /* RxCocoa in Frameworks */,
+				AAEC85942CBD363E000D3DCA /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +66,50 @@
 		AAEC85672CAFF4C1000D3DCA /* CryptoSight */ = {
 			isa = PBXGroup;
 			children = (
-				AAEC85682CAFF4C1000D3DCA /* AppDelegate.swift */,
-				AAEC856A2CAFF4C1000D3DCA /* SceneDelegate.swift */,
-				AAEC856C2CAFF4C1000D3DCA /* ViewController.swift */,
+				AAEC857E2CAFFD69000D3DCA /* View */,
+				AAEC857D2CAFFD63000D3DCA /* Model */,
+				AAEC857C2CAFFD5C000D3DCA /* Service */,
+				AAEC857F2CAFFD6D000D3DCA /* ViewModel */,
 				AAEC856E2CAFF4C1000D3DCA /* Main.storyboard */,
 				AAEC85712CAFF4C5000D3DCA /* Assets.xcassets */,
 				AAEC85732CAFF4C5000D3DCA /* LaunchScreen.storyboard */,
 				AAEC85762CAFF4C5000D3DCA /* Info.plist */,
 			);
 			path = CryptoSight;
+			sourceTree = "<group>";
+		};
+		AAEC857C2CAFFD5C000D3DCA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC85822CAFFE28000D3DCA /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AAEC857D2CAFFD63000D3DCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC85802CAFFD97000D3DCA /* Crypto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAEC857E2CAFFD69000D3DCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC85682CAFF4C1000D3DCA /* AppDelegate.swift */,
+				AAEC856A2CAFF4C1000D3DCA /* SceneDelegate.swift */,
+				AAEC856C2CAFF4C1000D3DCA /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAEC857F2CAFFD6D000D3DCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC85842CBD355A000D3DCA /* CryptoViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,10 @@
 			dependencies = (
 			);
 			name = CryptoSight;
+			packageProductDependencies = (
+				AAEC858B2CBD363E000D3DCA /* RxCocoa */,
+				AAEC85932CBD363E000D3DCA /* RxSwift */,
+			);
 			productName = CryptoSight;
 			productReference = AAEC85652CAFF4C1000D3DCA /* CryptoSight.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = AAEC855C2CAFF4C1000D3DCA;
+			packageReferences = (
+				AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = AAEC85662CAFF4C1000D3DCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEC85812CAFFD97000D3DCA /* Crypto.swift in Sources */,
 				AAEC856D2CAFF4C1000D3DCA /* ViewController.swift in Sources */,
 				AAEC85692CAFF4C1000D3DCA /* AppDelegate.swift in Sources */,
+				AAEC85832CAFFE28000D3DCA /* WebService.swift in Sources */,
 				AAEC856B2CAFF4C1000D3DCA /* SceneDelegate.swift in Sources */,
+				AAEC85852CBD355A000D3DCA /* CryptoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +418,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAEC858B2CBD363E000D3DCA /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		AAEC85932CBD363E000D3DCA /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAEC855D2CAFF4C1000D3DCA /* Project object */;
 }
