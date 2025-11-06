@@ -1,0 +1,15 @@
+# Xcode
+DerivedData/
+xcuserdata/
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Git
+*.orig
