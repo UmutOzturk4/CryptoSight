@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A29F84BD5E06522BB36FD061 /* Pods_CryptoSight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D8DE282956053F99202E4D /* Pods_CryptoSight.framework */; };
+		AA0DA65F2CD7916700B1FF63 /* OptionallyDecodable in Frameworks */ = {isa = PBXBuildFile; productRef = AA0DA65E2CD7916700B1FF63 /* OptionallyDecodable */; };
+		AA0DA6612CE3791200B1FF63 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0DA6602CE3791200B1FF63 /* CryptoTableViewCell.swift */; };
+		AA0DA6642CE4C94B00B1FF63 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AA0DA6632CE4C94B00B1FF63 /* SDWebImage */; };
+		AA0DA6662CE4C94B00B1FF63 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA0DA6652CE4C94B00B1FF63 /* SDWebImageMapKit */; };
+		AA0DA6682D0074E800B1FF63 /* CoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0DA6672D0074E800B1FF63 /* CoinDetailsViewController.swift */; };
+		AA3D7AF82D707CEA0003463E /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D7AF72D707CEA0003463E /* ConverterViewController.swift */; };
+		AA7B82692D690335002ECD51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7B82682D690335002ECD51 /* SettingsViewController.swift */; };
+		AA9C70532DD4C0DC0047E595 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = AA9C70522DD4C0DC0047E595 /* Algorithms */; };
 		AAEC85692CAFF4C1000D3DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC85682CAFF4C1000D3DCA /* AppDelegate.swift */; };
 		AAEC856B2CAFF4C1000D3DCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC856A2CAFF4C1000D3DCA /* SceneDelegate.swift */; };
-		AAEC856D2CAFF4C1000D3DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC856C2CAFF4C1000D3DCA /* ViewController.swift */; };
+		AAEC856D2CAFF4C1000D3DCA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC856C2CAFF4C1000D3DCA /* MainViewController.swift */; };
 		AAEC85702CAFF4C1000D3DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC856E2CAFF4C1000D3DCA /* Main.storyboard */; };
 		AAEC85722CAFF4C5000D3DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC85712CAFF4C5000D3DCA /* Assets.xcassets */; };
 		AAEC85752CAFF4C5000D3DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC85732CAFF4C5000D3DCA /* LaunchScreen.storyboard */; };
@@ -21,10 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2605218A20DE85B926753E81 /* Pods-CryptoSight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoSight.release.xcconfig"; path = "Target Support Files/Pods-CryptoSight/Pods-CryptoSight.release.xcconfig"; sourceTree = "<group>"; };
+		46D8DE282956053F99202E4D /* Pods_CryptoSight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoSight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A70F37C9FB177F6D4ACEDB /* Pods-CryptoSight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoSight.debug.xcconfig"; path = "Target Support Files/Pods-CryptoSight/Pods-CryptoSight.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0DA6602CE3791200B1FF63 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		AA0DA6672D0074E800B1FF63 /* CoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewController.swift; sourceTree = "<group>"; };
+		AA3D7AF72D707CEA0003463E /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		AA7B82682D690335002ECD51 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AAEC85652CAFF4C1000D3DCA /* CryptoSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC85682CAFF4C1000D3DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEC856A2CAFF4C1000D3DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAEC856C2CAFF4C1000D3DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAEC856C2CAFF4C1000D3DCA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AAEC856F2CAFF4C1000D3DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAEC85712CAFF4C5000D3DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEC85742CAFF4C5000D3DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,18 +56,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEC858C2CBD363E000D3DCA /* RxCocoa in Frameworks */,
+				AA9C70532DD4C0DC0047E595 /* Algorithms in Frameworks */,
+				AA0DA6662CE4C94B00B1FF63 /* SDWebImageMapKit in Frameworks */,
 				AAEC85942CBD363E000D3DCA /* RxSwift in Frameworks */,
+				AA0DA6642CE4C94B00B1FF63 /* SDWebImage in Frameworks */,
+				AA0DA65F2CD7916700B1FF63 /* OptionallyDecodable in Frameworks */,
+				A29F84BD5E06522BB36FD061 /* Pods_CryptoSight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11542FDF5F4A76E83D6C3FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98A70F37C9FB177F6D4ACEDB /* Pods-CryptoSight.debug.xcconfig */,
+				2605218A20DE85B926753E81 /* Pods-CryptoSight.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87A56EC7CEAE2C58AA5A602C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D8DE282956053F99202E4D /* Pods_CryptoSight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAEC855C2CAFF4C1000D3DCA = {
 			isa = PBXGroup;
 			children = (
 				AAEC85672CAFF4C1000D3DCA /* CryptoSight */,
 				AAEC85662CAFF4C1000D3DCA /* Products */,
+				11542FDF5F4A76E83D6C3FAD /* Pods */,
+				87A56EC7CEAE2C58AA5A602C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +139,11 @@
 			children = (
 				AAEC85682CAFF4C1000D3DCA /* AppDelegate.swift */,
 				AAEC856A2CAFF4C1000D3DCA /* SceneDelegate.swift */,
-				AAEC856C2CAFF4C1000D3DCA /* ViewController.swift */,
+				AAEC856C2CAFF4C1000D3DCA /* MainViewController.swift */,
+				AA0DA6602CE3791200B1FF63 /* CryptoTableViewCell.swift */,
+				AA0DA6672D0074E800B1FF63 /* CoinDetailsViewController.swift */,
+				AA7B82682D690335002ECD51 /* SettingsViewController.swift */,
+				AA3D7AF72D707CEA0003463E /* ConverterViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAEC85792CAFF4C5000D3DCA /* Build configuration list for PBXNativeTarget "CryptoSight" */;
 			buildPhases = (
+				90585DC55A7DD8BC567A9CB6 /* [CP] Check Pods Manifest.lock */,
 				AAEC85612CAFF4C1000D3DCA /* Sources */,
 				AAEC85622CAFF4C1000D3DCA /* Frameworks */,
 				AAEC85632CAFF4C1000D3DCA /* Resources */,
+				851EF33BB4C977491565DB0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +177,10 @@
 			packageProductDependencies = (
 				AAEC858B2CBD363E000D3DCA /* RxCocoa */,
 				AAEC85932CBD363E000D3DCA /* RxSwift */,
+				AA0DA65E2CD7916700B1FF63 /* OptionallyDecodable */,
+				AA0DA6632CE4C94B00B1FF63 /* SDWebImage */,
+				AA0DA6652CE4C94B00B1FF63 /* SDWebImageMapKit */,
+				AA9C70522DD4C0DC0047E595 /* Algorithms */,
 			);
 			productName = CryptoSight;
 			productReference = AAEC85652CAFF4C1000D3DCA /* CryptoSight.app */;
@@ -162,6 +212,9 @@
 			mainGroup = AAEC855C2CAFF4C1000D3DCA;
 			packageReferences = (
 				AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				AA0DA65D2CD7916700B1FF63 /* XCRemoteSwiftPackageReference "OptionallyDecodable" */,
+				AA0DA6622CE4C94B00B1FF63 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				AA9C70512DD4C0DC0047E595 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = AAEC85662CAFF4C1000D3DCA /* Products */;
 			projectDirPath = "";
@@ -185,17 +238,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		851EF33BB4C977491565DB0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoSight/Pods-CryptoSight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoSight/Pods-CryptoSight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoSight/Pods-CryptoSight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90585DC55A7DD8BC567A9CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoSight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAEC85612CAFF4C1000D3DCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0DA6682D0074E800B1FF63 /* CoinDetailsViewController.swift in Sources */,
 				AAEC85812CAFFD97000D3DCA /* Crypto.swift in Sources */,
-				AAEC856D2CAFF4C1000D3DCA /* ViewController.swift in Sources */,
+				AAEC856D2CAFF4C1000D3DCA /* MainViewController.swift in Sources */,
 				AAEC85692CAFF4C1000D3DCA /* AppDelegate.swift in Sources */,
 				AAEC85832CAFFE28000D3DCA /* WebService.swift in Sources */,
 				AAEC856B2CAFF4C1000D3DCA /* SceneDelegate.swift in Sources */,
 				AAEC85852CBD355A000D3DCA /* CryptoViewModel.swift in Sources */,
+				AA0DA6612CE3791200B1FF63 /* CryptoTableViewCell.swift in Sources */,
+				AA7B82692D690335002ECD51 /* SettingsViewController.swift in Sources */,
+				AA3D7AF82D707CEA0003463E /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +361,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -321,7 +424,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -342,9 +445,11 @@
 		};
 		AAEC857A2CAFF4C5000D3DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A70F37C9FB177F6D4ACEDB /* Pods-CryptoSight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9DS92SGMT;
@@ -370,9 +475,11 @@
 		};
 		AAEC857B2CAFF4C5000D3DCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2605218A20DE85B926753E81 /* Pods-CryptoSight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9DS92SGMT;
@@ -420,6 +527,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AA0DA65D2CD7916700B1FF63 /* XCRemoteSwiftPackageReference "OptionallyDecodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/idrougge/OptionallyDecodable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		AA0DA6622CE4C94B00B1FF63 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		AA9C70512DD4C0DC0047E595 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
 		AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -431,6 +562,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AA0DA65E2CD7916700B1FF63 /* OptionallyDecodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0DA65D2CD7916700B1FF63 /* XCRemoteSwiftPackageReference "OptionallyDecodable" */;
+			productName = OptionallyDecodable;
+		};
+		AA0DA6632CE4C94B00B1FF63 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0DA6622CE4C94B00B1FF63 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		AA0DA6652CE4C94B00B1FF63 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0DA6622CE4C94B00B1FF63 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		AA9C70522DD4C0DC0047E595 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9C70512DD4C0DC0047E595 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
 		AAEC858B2CBD363E000D3DCA /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AAEC85862CBD363E000D3DCA /* XCRemoteSwiftPackageReference "RxSwift" */;
